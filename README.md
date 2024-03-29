@@ -1,2 +1,1 @@
-# MYBOLG
-MyBlog
+# GRIET
