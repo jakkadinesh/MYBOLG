@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+
+<script src="form.js"></script>
+<body>
+    <h1><center>Registration </center></h1>
+    <center>
+        <div class="table">
+            <form class = "form" onsubmit="return validateForm()"  action="/home.html">
+                <label for = "fname" class="align"><b>First Name:</b></label>
+                <input type="text" class = "demoinput"id = "fname" placeholder="First Name">
+                <br><br>
+                <label for = "lname" class="align"><b>Last Name:</b></label>
+                <input type="text" class = "demoinput"id = "lname" placeholder="Last Name">
+                <br><br>
+                <label for = "email"class="align"><b>Email:</b></label>
+                <input type= "email" class = "demoinput"id = "email" placeholder="Email">
+                <br><br>
+                <label for = "phone"class="align"><b>Phone:</b></label>
+                <input type="number"class = "demoinput" id = "phone" placeholder="Phone">
+                <br><br>
+                <label for = "pass"class="align"><b>Password:</b></label>
+                <input type="password"class = "demoinput" id = "password" placeholder="Password">
+                <br><br>
+                <label for = "phone"class="align"><b>Confirm Password:</b></label>
+                <input type="password"class = "demoinput" id = "cpassword" placeholder="Password">
+
+                <br><br>
+                <input type="submit"   id = "submit"value="Register" onclick="home.html">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
